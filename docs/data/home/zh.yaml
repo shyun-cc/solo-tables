@@ -1,0 +1,26 @@
+sections: [hero, cards]
+hero:
+  align: center
+  eyebrow: 设计讨论稿 · 尚未实现
+  title_lines:
+    - words: [{ text: solo-tables }]
+  lead: 先确认问题、目标与边界，再决定实现。本轮仅建立文档；业务用途、用户角色和数据含义仍待确认。
+  actions:
+    - { label: 阅读讨论稿, url: docs/, icon: fa-solid fa-book, style: primary }
+    - { label: 待确认问题, url: docs/questions/, icon: fa-solid fa-list, style: ghost }
+cards:
+  title: 讨论入口
+  columns: 3
+  items:
+    - title: 项目概览
+      desc: 区分仓库事实、设计提案与未知事项。
+      url: docs/overview/
+      icon: fa-solid fa-book-open
+    - title: 验收标准
+      desc: 本轮验收文档与构建，业务验收另行确认。
+      url: docs/acceptance/
+      icon: fa-solid fa-check
+    - title: 决策记录
+      desc: 记录文档工具选择与尚未决定的实现事项。
+      url: docs/decisions/
+      icon: fa-solid fa-pen-nib

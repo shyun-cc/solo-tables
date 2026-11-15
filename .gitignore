@@ -1,0 +1,5 @@
+# Documentation build output and local caches
+/docs/public/
+/docs/resources/
+/docs/.hugo_build.lock
+/docs/.hugo_cache/
